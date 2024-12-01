@@ -4,9 +4,9 @@
 </p>
 Colons can be used to align columns.
 
-| Tables        | Are           | 
+| Step        | Suggestion           | 
 | ------------- |:-------------:| 
-|      |  | |
+| ed     |  |  must be at least 3 dashes separating each header cel|
 | col 2 is      | centered      |  
 | zebra stripes | are neat      |    
 
