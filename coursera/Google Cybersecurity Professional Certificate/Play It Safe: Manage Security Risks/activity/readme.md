@@ -7,8 +7,7 @@ Colons can be used to align columns.
 | Step        | Suggestion           | 
 | ------------- |:-------------:| 
 | ed     |  |  There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.|
-| col 2 is      | must be at least 3 dashes separating each header ce </b>
-the|  
+| col 2 is      | must be at least 3 dashes separating each header ce </b>the|  
 | zebra stripes | are neat      |    
 
 There must be at least 3 dashes separating each header cell.
