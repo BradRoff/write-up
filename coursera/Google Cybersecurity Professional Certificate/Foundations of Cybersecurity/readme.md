@@ -22,4 +22,6 @@
   <li><b><u>Software Development Security</b></u>: This domain focuses on using a set of recommended guidelines when developing secure applications or services. For example, a software developer may ask a security analyst for advice on password policies. The code should also be regularly tested for any potential vulnerabilities.</li>
   
 </ol>
-<img style ="text-align: center" src ="https://imgs.search.brave.com/ti0c7abIYD6UgzzzXw2-M2ZYmOx9xBdoAry8Kw8Q65w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kZXN0/Y2VydC5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/OC1kb21haW5zLWV4/cGxhaW5lZC5wbmc"></img>
+<img style ="margin-left: auto; margin-right: auto;" 
+  src ="https://imgs.search.brave.com/ti0c7abIYD6UgzzzXw2-M2ZYmOx9xBdoAry8Kw8Q65w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kZXN0/Y2VydC5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDgv/OC1kb21haW5zLWV4/cGxhaW5lZC5wbmc"></img>
+
