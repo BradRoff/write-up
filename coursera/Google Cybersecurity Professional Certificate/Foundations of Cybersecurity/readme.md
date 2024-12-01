@@ -1,4 +1,4 @@
-<h1>Short review for <a href="https://www.coursera.org/learn/foundations-of-cybersecurity/">Foundations of Cybersecurity</a>.</h1>
+<h1 align = "center">Short review for <a href="https://www.coursera.org/learn/foundations-of-cybersecurity/">Foundations of Cybersecurity</a>.</h1>
 <p>This section contained very basic information on the field of cybersecurity. 
   Some interesting topics included the Alvi brothers, who created the Brain virus in 1986, 
   which was meant to track pirated healthcare services. Unfortunately, it infected other disks and spread 
