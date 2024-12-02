@@ -1,6 +1,6 @@
-<h1 align = "center">Play It Safe: Manage Security Risks short Review</h1>
+<h1 align = "center">The TCP/IP and OSI models</h1>
 <h2 align = "center">
-  In this section, we dive depper into network vulnerabilities and how to secure networks. 
+  In this short activity, I want to put down a summery on the TCP/IP and OSI models to help further my understanding of them.
 </h2>
 <p>&emsp;
   Two models are commonly used as frameworks for understanding network communication: the Transmission Control Protocol/Internet Protocol (TCP/IP) model and the Open Systems Interconnection (OSI) model. The TCP/IP model is more commonly used due to its simplicity and practical application in real-world networking. In contrast, the OSI model is used more for theoretical purposes and to understand networking concepts at a more granular level.
