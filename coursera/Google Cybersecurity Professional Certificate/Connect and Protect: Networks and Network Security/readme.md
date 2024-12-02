@@ -7,18 +7,12 @@
 </p>
 <h3 align = "center">The TCP model:</h3>
 <table align= "center">
-  <tr><th>Item</th>           <th>Price</th>      <th># In stock</th></tr>
-  <tr><td>Juicy Apples</td>   <td>1.99</td>       <td>739</td></tr>
-  <tr><td>Bananas</td>        <td>1.89</td>       <td>6</td></tr>
+  <tr><th>Application</th>           <th>HTTP HHTPS SSH FTP SMTP</th>      </tr>
+  <tr><td>Transport Layer</td>   <td>TCP UDP</td>       <td>739</td></tr>
+  <tr><td>Internet Layer</td>        <td>Ip address IPV4 IPV6</td>       </tr>
+  <tr><td>Network Access Layer</td>   <td>Ethernet Wirless Lan</td></tr>
 </table>
-<div align= "center">
-  | Layer        | Protocal/Address                      | 
-|-------------|--------------------|
-| Application      | HTTP HHTPS SSH FTP SMTP | 
-| Transport Layer      | TCP UDP | 
-| Internet Layer      |    Ip address IPV4 IPV6   | 
-| Network Access Layer |    Ethernet Wirless Lan| 
-</div>
+\
 
 
 <p>&emsp;
