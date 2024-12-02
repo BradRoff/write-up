@@ -4,8 +4,8 @@ One of the most important functions of the network protocol is to form packets o
   The most common packet formations used today are IPv4 and IPv6. In this activity, I'm going to go over the structure and components of each packet.
 </p>
 <h2 align="center">IPV4 Packet</h2>
-<table align= "center" >
-  <tr width = "4000px"><td colspan = "2"> <---20 - 65,535 or 2^16 --></td></tr>
-  <tr width = "4000px"><td colspan = "1"> <--20-60 bytes --></td></tr>
-  <tr width = "4000px"><td width = "20%">Header</td><td width= "80%">Data</td></tr>
+<table align= "center" width = "100%" >
+  <tr ><td colspan = "2"> <---20 - 65,535 or 2^16 --></td></tr>
+  <tr><td colspan = "1"> <--20-60 bytes --></td></tr>
+  <tr ><td >Header</td><td >Data</td></tr>
 </table>
