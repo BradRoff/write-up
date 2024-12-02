@@ -7,7 +7,7 @@
 </p>
 <h3 align = "center">The TCP model:</h3>
 
-<p align = "center">
+
   | Layer        | Protocal/Address                      | 
 |-------------|--------------------|
 | Application      | HTTP HHTPS SSH FTP SMTP | 
@@ -16,7 +16,7 @@
 | Network Access Layer |    Ethernet Wirless Lan| 
 
 
-</p>
+
 <p>&emsp;
  
 </p>
