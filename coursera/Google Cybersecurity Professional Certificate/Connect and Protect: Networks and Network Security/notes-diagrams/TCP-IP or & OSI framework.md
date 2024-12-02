@@ -51,13 +51,19 @@
     Layer 6: The <b><u>Presentation Layer</u></b> performs data translation and encryption for the network. This layer transforms data formats so that they can be understood by applications from the seventh layer (the Application Layer) on both sending and receiving systems. This ensures that the data is in a format that is readable by the user. The Presentation Layer can also handle encryption to secure the data, such as using Secure Sockets Layer (SSL) certificates or Transport Layer Security (TLS) certificates. These technologies encrypt data between web servers and browsers using HTTPS, also referred to as HTTP over SSL and HTTP over TLS, respectively.
   </li>
   <li>
-    Layer 5: The <b><u>Session</u></b> Layer protocols maintain sessions while data is being transferred and terminate the session once complete. A session can be defined as a connection between two devices. When opened, it allows the devices to communicate with each other. The Session Layer is also responsible for activities directly related to a session, such as authorization and reconnection. Sessions include a request and response between applications. Functions in the Session Layer respond to service requests from processes in the Presentation Layer (Layer 6) and send service requests to the Transport Layer (Layer 4).
+    Layer 5: The <b><u>Session Layer</u></b> protocols maintain sessions while data is being transferred and terminate the session once complete. A session can be defined as a connection between two devices. When opened, it allows the devices to communicate with each other. The Session Layer is also responsible for activities directly related to a session, such as authorization and reconnection. Sessions include a request and response between applications. Functions in the Session Layer respond to service requests from processes in the Presentation Layer (Layer 6) and send service requests to the Transport Layer (Layer 4).
   </li>
   <li>
-    Layer 4: The Transport Layer is responsible for delivering data between devices. This layer also controls the flow and speed of data by breaking down large data chunks into smaller segments, making them easier to transport. After breaking the data into smaller chunks for transport, they are then reassembled at their destination into their original form so they can be processed by the Session Layer (Layer 5). This layer is also where TCP and UDP are implemented.
+    Layer 4: The <b><u>Transport Layer</u></b> is responsible for delivering data between devices. This layer also controls the flow and speed of data by breaking down large data chunks into smaller segments, making them easier to transport. After breaking the data into smaller chunks for transport, they are then reassembled at their destination into their original form so they can be processed by the Session Layer (Layer 5). This layer is also where TCP and UDP are implemented.
   </li>
   <li>
-    
+    Layer 3: The <b><u>Network Layer</u></b> is responsible for facilitating data transfer between two different networks. This protocal then breaks up the segments recived from the transport layer (layer 4) to packets to be sent to  the  data link layer (layer two).  This layer also finds the fastest and most efficent path for the packets vie routing. Network layer protocols include IP, the Internet Control Message Protocol (ICMP), the Internet Group Message Protocol (IGMP), and the IPsec suite.
+  </li>
+  <li>
+    Layer 2: The <b><u>Data Link Layer</u></b> is very similar to the network layer, except the data link layer facilitates data transfer between two devices on the same network.. This layer facilitates communication between the Network Layer (Layer 3) and the Physical Layer (Layer 1). Several protocols like Network Control Protocol (NCP), Point-to-Point Protocol (PPP), and High-Level Data Link Control (HDLC) operate at this layer. Switches are also found in the Data Link Layer, using MAC addresses to forward frames between devices on a network.
+  </li>
+  <li>
+    Layer 1: As the name suggests, the <b><u>Physical Layer</u></b> corresponds to the physical hardware involved in network transmission. For data to travel across an Ethernet cable, the data packet from layer two is transformed into binary code. This layer can be considered as the actual "transmission" of data.
   </li>
 </ol>
 <p>&emsp;
