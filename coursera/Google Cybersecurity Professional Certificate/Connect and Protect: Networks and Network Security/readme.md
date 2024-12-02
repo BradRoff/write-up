@@ -7,14 +7,14 @@
 </p>
 <h3 align = "center">The TCP model:</h3>
 
-
+<div align= "center">
   | Layer        | Protocal/Address                      | 
 |-------------|--------------------|
 | Application      | HTTP HHTPS SSH FTP SMTP | 
 | Transport Layer      | TCP UDP | 
 | Internet Layer      |    Ip address IPV4 IPV6   | 
 | Network Access Layer |    Ethernet Wirless Lan| 
-
+</div>
 
 
 <p>&emsp;
