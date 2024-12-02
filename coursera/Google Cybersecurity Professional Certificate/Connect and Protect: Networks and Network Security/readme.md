@@ -8,7 +8,7 @@
 <h3 align = "center">The TCP model:</h3>
 <table align= "center">
   <tr><th>Application</th>           <th>HTTP HHTPS SSH FTP SMTP</th>      </tr>
-  <tr><td>Transport Layer</td>   <td>TCP UDP</td>       <td>739</td></tr>
+  <tr><td>Transport Layer</td>   <td><td>TCP</td> <td>UDP</td></td>       </tr>
   <tr><td>Internet Layer</td>        <td>Ip address IPV4 IPV6</td>       </tr>
   <tr><td>Network Access Layer</td>   <td>Ethernet Wirless Lan</td></tr>
 </table>
