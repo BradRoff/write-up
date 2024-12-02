@@ -6,7 +6,7 @@
   Two models are commonly used as frameworks for understanding network communication: the Transmission Control Protocol/Internet Protocol (TCP/IP) model and the Open Systems Interconnection (OSI) model. The TCP/IP model is more commonly used due to its simplicity and practical application in real-world networking. In contrast, the OSI model is used more for theoretical purposes and to understand networking concepts at a more granular level.
 </p>
 <h3 align = "center">The TCP model:</h3>
-<table style="margin-left: auto; margin-right: auto;">
+<table align= "center">
   <tr><th>Item</th>           <th>Price</th>      <th># In stock</th></tr>
   <tr><td>Juicy Apples</td>   <td>1.99</td>       <td>739</td></tr>
   <tr><td>Bananas</td>        <td>1.89</td>       <td>6</td></tr>
