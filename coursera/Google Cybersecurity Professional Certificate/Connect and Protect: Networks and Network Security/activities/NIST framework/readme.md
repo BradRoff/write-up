@@ -2,7 +2,15 @@
 <p>
   &emsp; In this activity I created a incident report for an example cyber security reesponse scenario using the NIST format. 
 </p>
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
+Content       |   **Cell**    |         Cell |
 
+New section   |     More      |         Data |
+And more      | With an escaped '\|'         ||  
+[Prototype table]
 | Step        | Analysis           | 
 |-------------|--------------------|
 | Incident Summary      | The company experienced a flood of Internet Control Message Protocol (ICMP) packets, which compromised the internal network for two hours. The cyber team found that this was caused by an attacker overwhelming the network with a distributed denial of service (DDoS) attack, and in response, blocked all non-critical network services. They have implemented several improvements, such as a new firewall rule to counter the ICMP attacks, source IP verification, network monitoring software, and an IDS/IPS system to filter out some ICMP traffic based on suspicious characteristics. | 
