@@ -1,1 +1,1 @@
-
+Hello! this was a chapter with alot of good review material that I didn't want to bog down the overall reveiw such as an overall TCP/IP stuture and OSI structure. I implemented this folder to show my extended thoughts and explinations on these topics.
