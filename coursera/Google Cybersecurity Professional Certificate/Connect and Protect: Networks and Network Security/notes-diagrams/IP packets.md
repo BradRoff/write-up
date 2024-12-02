@@ -3,18 +3,11 @@
 One of the most important functions of the network protocol is to form packets of data to be sent over the network. 
   The most common packet formations used today are IPv4 and IPv6. In this activity, I'm going to go over the structure and components of each packet.
 </p>
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*        ||
-Content       |   **Cell**    |         Cell |
 
-New section   |     More      |         Data |
-And more      | With an escaped '\|'         ||  
 [Prototype table]
 <h2 align="center">IPV4 Packet</h2>
-<table align= "center" width = "100%" >
+<table align= "center"  >
   <tr ><td colspan = "2"> <---20 - 65,535 or 2^16 --></td></tr>
   <tr><td colspan = "1"> <--20-60 bytes --></td></tr>
-  <tr ><td >Header</td><td >Data</td></tr>
+  <tr ><td width = "50px">Header</td><td >Data</td></tr>
 </table>
