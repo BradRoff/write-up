@@ -4,7 +4,7 @@
 </p>
 
 | Step        | Analysis           | 
-| :-------------: |:-------------| 
+
 | Incident Summary      | The company experienced a flood of Internet Control Message Protocol (ICMP) packets, which compromised the internal network for two hours. The cyber team found that this was caused by an attacker overwhelming the network with a distributed denial of service (DDoS) attack, and in response, blocked all non-critical network services. They have implemented several improvements, such as a new firewall rule to counter the ICMP attacks, source IP verification, network monitoring software, and an IDS/IPS system to filter out some ICMP traffic based on suspicious characteristics. | 
 | Identify      | The attacker used a DDoS attack to take down the company's entire internal network system. Currently, the company's internal network system is functional. However, the network should be checked for any further vulnerabilities and ensure that it is up to date. | 
 | Protect      |    In this case, the cybersecurity team implemented a new firewall rule to limit the rate of incoming ICMP packets and An IDS/IPS system to filter out some ICMP traffic based on suspicious characteristics. These rules should be reguarly updated.   | 
