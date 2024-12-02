@@ -9,7 +9,7 @@
 
 <p align = "center">
 | Layer        | Protocal/Address           | 
-|;------------;|;--------------------------;|
+|------------|--------------------------|
 |Application   |HTTP HHTPS SSH FTP SMTP     |
 |Transport Layer|TCP UDP|
 |Internet Layer|Ip address IPV4 IPV6|
