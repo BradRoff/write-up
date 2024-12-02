@@ -7,5 +7,5 @@ One of the most important functions of the network protocol is to form packets o
 <table align= "center">
   <tr><td colspan = "2"> <---20 - 65,535 or 2^16 --></td></tr>
   <tr><td colspan = "1"> <--20-60 bytes --></td></tr>
-  <tr><td>Header</td><td>Data                             </td></tr>
+  <tr><td column-width = "20%">Header</td><td column-width= "80%">Data</td></tr>
 </table>
