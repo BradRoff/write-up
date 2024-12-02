@@ -11,10 +11,4 @@ One of the most important functions of the network protocol is to form packets o
 </table>
 
 <h2 align="center">IPV4 Packet Header Contents</h2>
-<table align= "center"  >
-  <tr ><td  align="center">VER 4 bits</td ><td  align="center">Service 8 bits</td><td  align="center"> VER 4 bits</td><td  align="center" colspan = "2" >Total Length: 16 bits</td><td  align="center"> Option Feilds 20 bits</td></tr>
-  <tr><td colspan = "2" align="center">Identification 16 bits</td>><td  align="center"> Flags 3 bits</td>><td  align="center"> Fragmentation Offset 4 bits</td></tr>
-   <tr><td colspan = "1.5" align="center">Time to live 8 bits</td><td colspan = "1.5" align="center">Protocol 8 bits</td><td colspan = "2" align="center">Header Checksum 16 bits</td></tr>
-  <tr ><td >Header</td><td width = "300px" >Data</td></tr>
-</table>
-<h3 align = "center">Packet Feilds</h3>
+<img align = "center" hreff = "https://imgs.search.brave.com/shQuGTnETGn-LzECs5kBfFvGd0Bwy4CMARAUWa24GYo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aXB4by5jb20vYXBw/L3VwbG9hZHMvMjAy/Mi8wOC9JUHY0LXBh/Y2tldC1oZWFkZXIu/cG5n">
