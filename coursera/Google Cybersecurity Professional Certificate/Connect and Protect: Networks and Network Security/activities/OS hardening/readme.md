@@ -1,12 +1,14 @@
 <h1 align = "center">Apply OS hardening techniques</br></h1>
 <h2 align = "center">Security Incedent Report</h2>
 <ol>
+   <p align="center">
   <li>
-    <p align="center"><b>Section 1:</b> Identify the network protocol involved in the incident </br></p>
+   <b>Section 1:</b> Identify the network protocol involved in the incident </br></p>
   The network protocol involved with this brute force attack was the Hypertext Transfer Protocol (HTTP), as the issue involves the web server for yummyrecipesforme.com. In the process of using tcpdump, when the browser initiates an HTTP request for the yummyrecipesforme.com webpage using the IP address sent by the DNS server, the browser then downloads the malware and initiates a DNS request for greatrecipesforme.com. The malicious file is shown to be transported ussing the HTTP protical along the aplication layer.
   </li>
-   <li>
-   <p align="center"> <b>Section 2:</b> Document the incident </br></p>
+   <p align="center">
+      <li>
+<b>Section 2:</b> Document the incident </br></p>
   Within this incident, several customers complained that the company’s website had prompted them to download a file to access free recipes. Once this file was run, it would change the title of the webpage and slow down the speed of their personal computers, which infected their systems with malware. In response, the owner tried to log into their admin panel but was unable to, being forced to contact their provider. The attacker likely changed the admin access credentials when they brute-forced the site.
 
 The investigation was held in a sandbox environment, where the same steps the clients reported were performed, along with tcpdump. As described, downloading the prompted file and allowing it to run redirects to greatrecipesforme.com, which contains malware.
