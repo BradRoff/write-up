@@ -1,6 +1,6 @@
 <h1 align="center">Analyze Network Layer Communication Activity</h1> 
 <p>
-  In this activity, I will provide an example scenario in which multiple clients can't reach the website www.yummyrecipesforme.com and encounter the error "destination port unavailable." Using the analyzed traffic log from a TCP dump, I will write up an incident report.
+  In this activity, I will provide an example scenario in which multiple clients can't reach the website <a>www.yummyrecipesforme.com</a> and encounter the error "destination port unavailable." Using the analyzed traffic log from a TCP dump, I will write up an incident report.
 </p> 
 <h2 align="center">DNS and ICMP Traffic Log Summary</h2> 
 <p>
