@@ -42,5 +42,5 @@ One of the most important functions of the network protocol is to form packets o
 <li><b>Payload Length</b>: Unlike IPv4, position and name changed. IPv6 only includes data length</li>
 <li><b>Hop Limit (IPv6):</b> same as Time to Live (IPv4), position and name changed. Both prevent infinite packet loops</li>
 <li><b>Next Header:</b>same as Protocol (IPv4)  position and name changed. Indicates the payload protocol or extension header.</li>
-<li><b></li>
+
 
