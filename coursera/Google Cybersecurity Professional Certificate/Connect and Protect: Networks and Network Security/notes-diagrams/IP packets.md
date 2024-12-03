@@ -35,7 +35,7 @@ One of the most important functions of the network protocol is to form packets o
 </p>
 <h2 align = "center">IPV6 header</h2>
 
-<img src = "![image](https://github.com/user-attachments/assets/62656bc1-a7b6-4a17-93c7-ffc5e208477c)">
+<img src = "[![image](https://github.com/user-attachments/assets/62656bc1-a7b6-4a17-93c7-ffc5e208477c)](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/IPv6_header-en.svg/1920px-IPv6_header-en.svg.png)">
 <h3 align="center">IPV4 Packet Header Fields</h2>
 <li><b>Traffic Class</b>: Same as Type of Service (IPv4), position and name changed. Used for traffic classification and marking.</li>
 <li><b>Flow Label:</b> 20-bit field for labeling packets in the same sequence</li>
