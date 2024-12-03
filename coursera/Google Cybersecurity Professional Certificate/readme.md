@@ -6,3 +6,5 @@
   I will post short reviews on each chapter of this certificate in my journey to complete it.
 
 </p>
+![](https://github.com/BradRoff/write-up/blob/8ae813bc4ac07f015e2c51bcc8bc0a43e1b1a93f/coursera/img/Coursera%20QY2ER2R8LLC9.jpg)
+![](https://github.com/BradRoff/write-up/blob/main/coursera/img/Coursera%20QY2ER2R8LLC9.jpg?raw=true)
