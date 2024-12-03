@@ -36,10 +36,10 @@ One of the most important functions of the network protocol is to form packets o
 <h2 align = "center">IPV6 header</h2>
 
 <table align= "center" >
-  <tr><td>Version</td><td>Trafic class</td><td colspan = "2">Flow Label</td></tr>
+  <tr><td>Version</td><td>Trafic class</td><td colspan = "2" align= "center">Flow Label</td></tr>
   <tr><td colspan = "2">Payload length<td>Next Header</td><td>Hop Limit</td></tr>
-  <tr > <td colspan = "4">Source address </td></tr>
-  <tr> <td colspan = "4" width = "300px">Destination address </td></tr>
+  <tr > <td colspan = "4" align= "center">Source address </td></tr>
+  <tr> <td colspan = "4" width = "300px" align= "center">Destination address </td></tr>
 </table>
 
 <h3 align="center">IPV4 Packet Header Fields</h2>
