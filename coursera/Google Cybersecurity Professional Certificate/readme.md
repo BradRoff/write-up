@@ -1,8 +1,6 @@
 ![](https://github.com/BradRoff/write-up/blob/main/coursera/img/Coursera%20QY2ER2R8LLC9.jpg?raw=true)
 <h1>Why did I chose to complete the <a hreff= "https://www.coursera.org/professional-certificates/oogle-cybersecurity"> Google Cybersecurity 
-  Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+
   Professional Certificate? </a></h1>
 
 <p>After graduating from Farmingdale and starting to search for work, I wanted to refresh my knowledge of cybersecurity. 
