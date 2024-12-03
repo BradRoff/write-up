@@ -3,7 +3,7 @@
 For this senario, the reaserch team at my orginization neeeds updated file permision for the reaserch team for certian files and directories within the projects directory. The current permissions do not reflect the required authrizations. Checking and updating these permisions will increase overal security of the system.
 
 <h3>Checking File and directory details</h3>
-<img src=../img/1.png>
+<img src="../img/1.png">
 [Add content here.]
 Describe the permissions string
 [Add content here.]
