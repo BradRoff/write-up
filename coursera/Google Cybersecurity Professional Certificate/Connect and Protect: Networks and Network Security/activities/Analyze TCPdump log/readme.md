@@ -9,6 +9,6 @@ As part of the <b>Domain Name Server</b> (DNS) protocol, the DNS server tries to
 </p>
 <h2 align="center">Incident Cause Analysis</h2> 
 <p>
-  According to the timestamp "13:24:32.192571," this incident occurred at *:24 PM. The IT team became aware of the incident when customers reported being unable to access the website www.yummyrecipesforme.com, seeing the error message “destination port unreachable” after waiting for the page to load.
+  According to the timestamp "13:24:32.192571," this incident occurred at *:24 PM. The IT team became aware of the incident when customers reported being unable to access the website <a>www.yummyrecipesforme.com</a>, seeing the error message “destination port unreachable” after waiting for the page to load.
 The cause of the incident is likely incorrect firewall configurations on the DNS server side, blocking traffic on port 53. It is also possible that a Denial of Service (DoS) attack has shut down the DNS server on port 53. Depending on whether the DNS server was shut down or attacked by malicious actors, the service may need to be temporarily shut down for repairs. The next step in this process should be to determine the condition of the DNS server itself.
 </p>
