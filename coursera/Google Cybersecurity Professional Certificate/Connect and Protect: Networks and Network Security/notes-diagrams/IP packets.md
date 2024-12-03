@@ -37,7 +37,7 @@ One of the most important functions of the network protocol is to form packets o
 
 <table align= "center" >
   <tr><td>Version</td><td>Trafic class</td><td colspan = "2" align= "center">Flow Label</td></tr>
-  <tr><td colspan = "2">Payload length<td>Next Header</td><td>Hop Limit</td></tr>
+  <tr><td colspan = "2" align= "center">Payload length<td>Next Header</td><td>Hop Limit</td></tr>
   <tr > <td colspan = "4" align= "center">Source address </td></tr>
   <tr> <td colspan = "4" width = "300px" align= "center">Destination address </td></tr>
 </table>
