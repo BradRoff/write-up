@@ -34,8 +34,13 @@ One of the most important functions of the network protocol is to form packets o
   As the internet rapidly grew, we began to face the inpending possibility of running out of IPv4 addresses. To solve this issue, IPv6 was developed which has 340 undecillion addresses compared to IPv4s 4.3 billion. This also increaes security and provides more efficent routing as it avoids IPv4 collision from devices colliding by attemting to use the same IP address on the same network. 
 </p>
 <h2 align = "center">IPV6 header</h2>
-<p allign = "center">Diagram provided by wikipedia </b>
-<img src = "[coursera/Google Cybersecurity Professional Certificate/Connect and Protect: Networks and Network Security/notes-diagrams/IPv6wiki.PNG](https://github.com/BradRoff/write-up/blob/main/coursera/Google%20Cybersecurity%20Professional%20Certificate/Connect%20and%20Protect:%20Networks%20and%20Network%20Security/notes-diagrams/IPv6wiki.PNG?raw=true)">
+<p align = "center">Diagram provided by wikipedia </b>
+<table>
+  <tr><td>Version</td><td>Trafic class</td><td col-span = "2">Flow Label</td></tr>
+  <tr><td col-span = "2">Payload length<td>Next Header</td><td>Hop Limit</td></tr>
+  <tr row-span = "2"> <td col-span = "4">Source address </td></tr>
+  <tr row-span = "2"> <td col-span = "4">Destination address </td></tr>
+</table>
   </p>
 <h3 align="center">IPV4 Packet Header Fields</h2>
 <li><b>Traffic Class</b>: Same as Type of Service (IPv4), position and name changed. Used for traffic classification and marking.</li>
