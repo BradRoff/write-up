@@ -34,7 +34,7 @@ One of the most important functions of the network protocol is to form packets o
   As the internet rapidly grew, we began to face the inpending possibility of running out of IPv4 addresses. To solve this issue, IPv6 was developed which has 340 undecillion addresses compared to IPv4s 4.3 billion. This also increaes security and provides more efficent routing as it avoids IPv4 collision from devices colliding by attemting to use the same IP address on the same network. 
 </p>
 <h2 align = "center">IPV6 header</h2>
-<p align = "center">Diagram provided by wikipedia </b>
+<p align = "center">Diagram provided by wikipedia 
 <table>
   <tr><td>Version</td><td>Trafic class</td><td colspan = "2">Flow Label</td></tr>
   <tr><td colspan = "2">Payload length<td>Next Header</td><td>Hop Limit</td></tr>
