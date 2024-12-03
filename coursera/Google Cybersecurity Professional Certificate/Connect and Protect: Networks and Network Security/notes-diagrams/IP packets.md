@@ -35,7 +35,7 @@ One of the most important functions of the network protocol is to form packets o
 </p>
 <h2 align = "center">IPV6 header</h2>
 <p allign = "center">Diagram provided by wikipedia </b>
-<img src = "coursera/Google Cybersecurity Professional Certificate/Connect and Protect: Networks and Network Security/notes-diagrams/IPv6wiki.PNG">
+<img src = "[coursera/Google Cybersecurity Professional Certificate/Connect and Protect: Networks and Network Security/notes-diagrams/IPv6wiki.PNG](https://github.com/BradRoff/write-up/blob/main/coursera/Google%20Cybersecurity%20Professional%20Certificate/Connect%20and%20Protect:%20Networks%20and%20Network%20Security/notes-diagrams/IPv6wiki.PNG?raw=true)">
   </p>
 <h3 align="center">IPV4 Packet Header Fields</h2>
 <li><b>Traffic Class</b>: Same as Type of Service (IPv4), position and name changed. Used for traffic classification and marking.</li>
