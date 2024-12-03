@@ -68,7 +68,8 @@ Simple Mail Transfer Protocol (SMTP) is used to transmit and route email from th
 <p>&emsp;
 Ports themselves are assinged by the Internet Assigned Numbers Authority (IANA). Their are thousands of assigned ports that are individualy assigned to preform spacific tasks for our daily life.  The common ones disscused here were:</p>
 <table align = "center">
-<tr><th>DHCP</th><td>UDP port 67 (servers) </b>UDP port 68 (clients)</th></tr>
+  <tr><th>Protocol</th><td>Port</th></tr>
+<tr><td>DHCP</td><td>UDP port 67 (servers) </b>UDP port 68 (clients)</td></tr>
   <tr><td>ARP</td><td>none</td></tr>
    <tr><td>Telnet</td><td>TCP port 23</td></tr>
    <tr><td>SSH</td><td>TCP port 22</td></tr>
