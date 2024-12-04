@@ -30,7 +30,7 @@
   </tr>
   <tr>
     <th>Additional Notes:</th>
-    <th>
+    <th align=  "left">
       &emsp;The company should invest in security seminars for their employees to help prevent phishing attacks in the future. If the company does not have a plan of 
       action for situations like this, they should develop one to try getting operational as quickly as possible. When considering whether to pay the ransom for decryption, 
       I would strongly advise against it. The attackers currently hold all the power. They could lie and take the money without decrypting or, worse, leave a backdoor in the
