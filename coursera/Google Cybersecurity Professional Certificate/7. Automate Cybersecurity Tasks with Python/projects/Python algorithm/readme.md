@@ -1,7 +1,7 @@
 
 <h1 align = "center">Updating a file through a Python algorithm</h1>
 
-<h3  align = "center">## Introduction
+<h3  align = "center"> Introduction</h3>
 &emsp;
     In this Scenario I'm a security profesional working at a health care company. I'm reguraly requaried to update a file that determines which employees can access restricted content determined by their IP address. Giving an allow_list and remove_list, in this project we will create a Python Algorithm to check if the ```pythonallow_list``` contains any IP addresses on the ```pythonremove_list```. If they do contain them, the algorithm will automaticly remove them.
 
