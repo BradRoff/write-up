@@ -2,8 +2,8 @@
 <h1 align = "center">Updating a file through a Python algorithm</h1>
 
 <h3  align = "center"> Introduction</h3>
-&emsp;
-    In this Scenario I'm a security profesional working at a health care company. I'm reguraly requaried to update a file that determines which employees can access restricted content determined by their IP address. Giving an allow_list and remove_list, in this project we will create a Python Algorithm to check if the ```pythonallow_list``` contains any IP addresses on the ```pythonremove_list```. If they do contain them, the algorithm will automaticly remove them.
+
+&emsp;In this Scenario I'm a security profesional working at a health care company. I'm reguraly requaried to update a file that determines which employees can access restricted content determined by their IP address. Giving an allow_list and remove_list, in this project we will create a Python Algorithm to check if the ```pythonallow_list``` contains any IP addresses on the ```pythonremove_list```. If they do contain them, the algorithm will automaticly remove them.
 
 <h3  align = "center">Opening the file that contains the allow list</h3>
 &emsp;
@@ -47,8 +47,10 @@ for element in remove_list:
 ```
 
 <h3  align = "center">Removing IPs that are on the remove list</h3>
+
 &emsp;The goal of this algorithm requires removing any IP from the allow list (```pythonip_addresses```), that are also contained in the ```pythonremove_list```. To achive this I used the following code, note: IPs in the allow list do not repeat.
-```pytho
+
+```python
 for element in ip_addresses:
 # Build conditional statement
   # If current element is in `remove_list`,
@@ -69,7 +71,9 @@ Our final step is to update our original IP address file with the revised file. 
 ```python
 ip_addresses = "\n".join(ip_addresses)
 ```
+
 &emsp;Once I have the orginized file, I reopen the inported IP file and write the new IP address file in. This will overwrite the original file with the revised file.
+
 '''python
 with open (inport_file, "w") as file:
 
@@ -77,6 +81,7 @@ with open (inport_file, "w") as file:
 
     file.write(ip_addresses)
 '''
+
 <h3 align = "center">Summary</h3>
 
 
