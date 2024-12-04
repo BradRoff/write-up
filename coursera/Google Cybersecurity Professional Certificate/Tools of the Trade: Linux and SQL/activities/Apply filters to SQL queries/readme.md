@@ -5,7 +5,7 @@
 
 <h3 align="center">Retrieving After-Hours Failed Login Attempts</h3>
 <p>&emsp;A potential security incident has been discovered that occurred after business hours (after 18:00). To investigate this, we will query the "log_in_attempts" table by using the following code:</p>
-<img align="center" src="https://github.com/BradRoff/write-up/blob/4e44001fbd1ee89744a40a9165ae1587719d4933/coursera/Google%20Cybersecurity%20Professional%20Certificate/Tools%20of%20the%20Trade%3A%20Linux%20and%20SQL/activities/Apply%20filters%20to%20SQL%20queries/img/1.PNG">
+<img style="text-align: center;" src="https://github.com/BradRoff/write-up/blob/4e44001fbd1ee89744a40a9165ae1587719d4933/coursera/Google%20Cybersecurity%20Professional%20Certificate/Tools%20of%20the%20Trade%3A%20Linux%20and%20SQL/activities/Apply%20filters%20to%20SQL%20queries/img/1.PNG">
 <p>&emsp;The first part of this screenshot is my SQL query. This query selects all information from "log_in_attempts" where the login time is past 18:00 and the login attempt failed. Since success in the table is calculated by a boolean value, 1 is equal to true and 0 is equal to false. We find that there are 19 entries of failed login attempts performed after normal working hours (18:00).</p>
 
 <h3>Retrieving Login Attempts on Specific Dates</h3>
