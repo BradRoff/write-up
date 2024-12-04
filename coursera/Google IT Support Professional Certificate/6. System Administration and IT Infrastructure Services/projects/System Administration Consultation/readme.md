@@ -1,5 +1,5 @@
 <h1>System Administration Consultation</h1>
-<p>&esmp;
+<p>&emsp;
 In this project I will be working on systems administration for three diffrent companies in three diffrent scenarios. For each scenario, I will present improvements to processes based on the company’s needs and current restrictions. Please click any dropdown for the scenario or my respective response.</p>
 <details><summary>Network Funtime Company, Software Company</summary>
 <p>Network Funtime Company is a small company that builds open-source software. The company is made up software engineers, a few designers, one person in Human Resources (HR), and a small sales team. Altogether, there are 100 employees. They recently hired you as a system administrator to come in and become their IT department.<br>
