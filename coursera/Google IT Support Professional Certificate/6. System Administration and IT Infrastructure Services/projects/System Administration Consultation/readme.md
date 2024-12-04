@@ -16,7 +16,7 @@ The company currently has many of their services in the cloud, such as email, wo
 </p>
 </details>
 
-<details><h3><summary>Improving NFC</summary></h3>
+<details><summary>Improving NFC</summary>
   <p>
 Hardware Management Issues:<br>
 Laptop purchases for new employees should be more standardized. For example, there should be three pre-approved laptop brands/models for users that will be sufficient for their respective roles. This will increase productivity, as issues that have occurred before can likely be fixed more easily if they happen on the same model. Depending on the expected employee size, this also allows the company to buy in bulk, receiving a sizable discount. When buying in bulk, it would be wise to purchase spare hardware in case a user's laptop breaks or a new hire needs a laptop, avoiding several days of waiting. These computers can be preinstalled with the required software and BIOS for the employees' needs. The company also needs an accurate hardware inventory that contains information on each computer. This inventory can include the purchase date, an assigned ID number, model, and the ID of the assigned employee. This will greatly reduce potential theft, as each employee will be responsible for an assigned computer. It will also improve overall security management and auditing.<br>
