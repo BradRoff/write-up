@@ -9,10 +9,7 @@
 &emsp;
 For the first part of the algorithm, I opened the ```pythonallow_list.txt``` file. First, I assigned the text file to ```pythoninport_list```.
 
-```python
-#Assigning allow_list.txt file to import_list for further use
-import_file = allow_list.txt
-```
+```python #Assigning allow_list.txt file to import_list for further use import_file = allow_list.txt ```
 &emsp;
 Then I used a with statement to open the file:
 
