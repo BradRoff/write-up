@@ -3,24 +3,27 @@
 
 <h3  align = "center"> Introduction</h3>
 
-&emsp;In this Scenario I'm a security profesional working at a health care company. I'm reguraly requaried to update a file that determines which employees can access restricted content determined by their IP address. Giving an allow_list and remove_list, in this project we will create a Python Algorithm to check if the ```pythonallow_list``` contains any IP addresses on the ```pythonremove_list```. If they do contain them, the algorithm will automaticly remove them.
+&emsp;In this Scenario I'm a security profesional working at a health care company. I'm reguraly requaried to update a file that determines which employees can access restricted content determined by their IP address. Giving an allow_list and remove_list, in this project we will create a Python Algorithm to check if the `pythonallow_list` contains any IP addresses on the `pythonremove_list`. If they do contain them, the algorithm will automaticly remove them.
 
 <h3  align = "center">Opening the file that contains the allow list</h3>
 &emsp;
-For the first part of the algorithm, I opened the ```pythonallow_list.txt``` file. First, I assigned the text file to ```pythoninport_list```.
+For the first part of the algorithm, I opened the `pythonallow_list.txt` file. First, I assigned the text file to `pythoninport_list`.
 
-```python #Assigning allow_list.txt file to import_list for further use import_file = allow_list.txt ```
+```python
+#Assigning allow_list.txt file to import_list for further use
+import_file = allow_list.txt
+```
 &emsp;
-Then I used a with statement to open the file:
+Then I used a with statement to `open` the file:
 
 ```python
 #Opining imported list of allowed IPs useing with open, assigning the read "r" result to file
 with open(inport_file, "r") as file:```
-
+```
 <h3  align = "center">Reading the file's contents</h3>
 &emsp;
-Next, to read the results I take the file from the privious step and convert it to a string using the ```python.read``` command. 
-This string now stored in ```pythonip_addresses``` can now be used latter for orginizing and extracting data in the python algorithm.
+Next, to read the results I take the file from the privious step and convert it to a string using the `python.read` command. 
+This string now stored in `pythonip_addresses` can now be used latter for orginizing and extracting data in the python algorithm.
 
 ```python
 with open(inport_file,"r") as file:
@@ -29,7 +32,7 @@ with open(inport_file,"r") as file:
 
 <h3  align = "center">Converting the string into a list</h3>
 
-&emsp;To remove individual IPs from this string, I need the IPs to be in a list format. Using the ```pythonsplit()``` method, I will convert the ```pythonip_addresses``` into a list. In this case, spliting the list by white spaces and assigning the result back to ```pythonip_addresses```.
+&emsp;To remove individual IPs from this string, I need the IPs to be in a list format. Using the `pythonsplit()` method, I will convert the `pythonip_addresses` into a list. In this case, spliting the list by white spaces and assigning the result back to `pythonip_addresses`.
 
 ```python
 #Using '.split()' to convert IP string to list for ideration
@@ -37,7 +40,8 @@ ip_addresses = ip_addresses.split()
 ```
 
 <h3  align = "center">Iterating through the remove list</h3>
-&emsp; By inplementing a ```pythonfor``` loop, the iteration will repeat for each element in a sequence.
+&emsp; By inplementing a `pythonfor` loop, the iteration will repeat for each element in a sequence.
+
 ```python
 #Iterating through each element using a for loop in remove_list
 for element in remove_list:
@@ -45,7 +49,7 @@ for element in remove_list:
 
 <h3  align = "center">Removing IPs that are on the remove list</h3>
 
-&emsp;The goal of this algorithm requires removing any IP from the allow list (```pythonip_addresses```), that are also contained in the ```pythonremove_list```. To achive this I used the following code, note: IPs in the allow list do not repeat.
+&emsp;The goal of this algorithm requires removing any IP from the allow list (`pythonip_addresses`), that are also contained in the `pythonremove_list`. To achive this I used the following code, note: IPs in the allow list do not repeat.
 
 ```python
 for element in ip_addresses:
@@ -56,15 +60,17 @@ for element in ip_addresses:
     
         # remove that element from `ip_addresses`
 
-        ip_addresses.remove(element)```
+        ip_addresses.remove(element)
+'''
 
 &emsp;
-In this the loop above, the code checks if each IP in remove list matches any ID in ip_addresses. If so, that ID is removed using ```pythonip_addresses.remove(element)```.
+In this the loop above, the code checks if each IP in remove list matches any ID in ip_addresses. If so, that ID is removed using `pythonip_addresses.remove(element)`.
 
-```python```
+
 <h3  align = "center">Updating the file with the revised list of IP addresses</h3>
 &emsp;
-Our final step is to update our original IP address file with the revised file. To do this first I use the ```pythonjoin``` command to make the new file more readable by makeing each IP address appear on a new line ussing "\n".
+Our final step is to update our original IP address file with the revised file. To do this first I use the `join` command to make the new file more readable by makeing each IP address appear on a new line ussing "\n".
+
 ```python
 ip_addresses = "\n".join(ip_addresses)
 ```
