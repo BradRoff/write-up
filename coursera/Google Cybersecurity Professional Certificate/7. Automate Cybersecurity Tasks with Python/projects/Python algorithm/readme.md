@@ -77,13 +77,14 @@ ip_addresses = "\n".join(ip_addresses)
 
 &emsp;Once I have the orginized file, I reopen the inported IP file and write the new IP address file in. This will overwrite the original file with the revised file.
 
-'''python
-with open (inport_file, "w") as file:
+```python
+ with open (inport_file, "w") as file:
 
-    #rewrite the file, replacing IP file with update version
+#rewrite the file, replacing IP file with update version
 
     file.write(ip_addresses)
-'''
+```
+
 
 <h3 align = "center">Summary</h3>
 
