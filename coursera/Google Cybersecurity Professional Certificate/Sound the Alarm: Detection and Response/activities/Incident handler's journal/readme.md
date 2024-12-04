@@ -17,7 +17,7 @@
   <tr>
     <th>The 5 W's</th>
     <th>
-      <ul>
+      <ul align=  "left">>
         <li><b>W</b>ho: An organized group of unethical hackers known to target organizations in healthcare and transportation industries.</li>
         <li><b>W</b>hat: A ransomware attack encrypting critical files.</li>
         <li><b>W</b>here: A small U.S. healthcare clinic specializing in delivering primary-care services.</li>
