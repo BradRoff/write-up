@@ -727,6 +727,5 @@ To display the contents of the `text` variable, pass it as an argument to the `p
 
 **What are your key takeaways from this lab?**
 
-[Double-click to enter your responses here.]
-# Python has sevral functions to help inport and parse text files. Using the open() function allows you to open a file with 
+Python has sevral functions to help inport and parse text files. Using the open() function allows you to open a file with 
 spefifying w for writing or r for reading. To read and write you need .read() and .write() respectivly. Split allows one to convert a list into a string. Using python functions you can incorpurate algorithms into a function to make work much more efficent.
