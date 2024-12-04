@@ -18,7 +18,7 @@ Then I used a with statement to `open` the file:
 
 ```python
 #Opining imported list of allowed IPs useing with open, assigning the read "r" result to file
-with open(inport_file, "r") as file:```
+with open(inport_file, "r") as file:
 ```
 <h3  align = "center">Reading the file's contents</h3>
 &emsp;
@@ -87,5 +87,56 @@ ip_addresses = "\n".join(ip_addresses)
 
 
 <h3 align = "center">Summary</h3>
+&emsp;In this algorithm we converted a file into a string value and into a list. Then using that list we were able to iterate through that data to remove a base set of items and replace the original file with an orginized version of the result. If you would like, here is the code not broken up.
 
 
+```python
+# Assign `import_file` to the name of the file 
+
+import_file = "allow_list.txt"
+
+# Assign `remove_list` to a list of IP addresses that are no longer allowed to access restricted information. 
+
+remove_list = ["192.168.97.225", "192.168.158.170", "192.168.201.40", "192.168.58.57"]
+# Display `import_file`
+
+print(import_file)
+
+# Display `remove_list`
+
+print(remove_list)
+
+#Assigning allow_list.txt file to import_list for further use
+import_file = allow_list.txt
+
+#Opining imported list of allowed IPs useing with open, assigning the read "r" result to file
+with open(inport_file, "r") as file:
+    ip_address = file.read()   
+
+#Using '.split()' to convert IP string to list for ideration
+ip_addresses = ip_addresses.split()
+
+for element in ip_addresses:
+# Build conditional statement
+  # If current element is in `remove_list`,
+    
+    if element in ip_addresses:
+    
+        # remove that element from `ip_addresses`
+
+        ip_addresses.remove(element)
+
+ip_addresses = "\n".join(ip_addresses)
+
+with open (inport_file, "w") as file:
+
+#rewrite the file, replacing IP file with update version
+
+    file.write(ip_addresses)
+
+#read to check that new file is working correctly
+with open (ip_addresses, "r") as file:
+
+
+    file.read(ip_addresses)
+```
