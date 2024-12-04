@@ -1,8 +1,7 @@
 <h1>System Administration Consultation</h1>
 <p>&esmp;
 In this project I will be working on systems administration for three diffrent companies in three diffrent scenarios. For each scenario, I will present improvements to processes based on the company’s needs and current restrictions. Please click any dropdown for the scenario or my respective response.</p>
-<details>
-<h3><summary>Network Funtime Company</summary></h3>
+<details><summary>Network Funtime Company</summary>
 <p>Network Funtime Company is a small company that builds open-source software. The company is made up software engineers, a few designers, one person in Human Resources (HR), and a small sales team. Altogether, there are 100 employees. They recently hired you as a system administrator to come in and become their IT department.<br>
 
 When a new person is hired on, the HR person purchases a laptop for them to do their work. The HR representative is unfamiliar with what type of hardware is out there; if a new employee requests a laptop, the HR person will purchase the cheapest option for a laptop online. Because of this, almost everyone has a different laptop model. The company doesn’t have too much revenue to spend, so they don’t order laptops until someone gets hired at the company. This leads to a few days of wait time from when someone starts to when they can actually work on a laptop.<br>
