@@ -1,4 +1,4 @@
-```console
+```shell
 foo@bar:~$ whoami
 foo
 ```
