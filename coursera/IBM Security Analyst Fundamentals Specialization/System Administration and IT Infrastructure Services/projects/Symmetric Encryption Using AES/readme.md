@@ -21,7 +21,7 @@ I begin by using the following command:
 	</details>
 </details>
 
-<details>Encrypting the file using the generated AES key<summary></summary>
+<details><summary>Encrypting the file using the generated AES key</summary>
 I then use the following command to encrypt the file, however the encryption seems outdated. While it would still work I will reencrypt as suggested in the warning for more security.
 
 
@@ -39,7 +39,7 @@ Using -iter or -pbkdf2 would be better.
 	```-pass file``` uses generated key from aes_key.bin
 	</details>
 </details>
-<details><summary></summary>
+<details><summary>Inproving Encryption</summary>
 I then encrypted the file with pbkdf2 and iter for increased security.
 
 	``` openssl enc -aes-256-cbc -d -salt -in encrypted_file.bin -out decrypted_file.txt -pass file:aes_key.bin -pbkdf2 -iter 100000’’’
