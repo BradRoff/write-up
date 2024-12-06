@@ -1,4 +1,4 @@
-```command
+```bash
 foo@bar:~$ whoami
 foo
 ```
