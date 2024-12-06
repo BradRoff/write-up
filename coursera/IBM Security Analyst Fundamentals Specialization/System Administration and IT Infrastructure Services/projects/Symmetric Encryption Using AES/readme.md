@@ -42,8 +42,11 @@ Using -iter or -pbkdf2 would be better.
 <details><summary>Inproving Encryption</summary>
 I then encrypted the file with pbkdf2 and iter for increased security.
 
-	``` openssl enc -aes-256-cbc -d -salt -in encrypted_file.bin -out decrypted_file.txt -pass file:aes_key.bin -pbkdf2 -iter 100000’’’
-	
+	```bash
+ 	openssl enc -aes-256-cbc -d -salt -in encrypted_file.bin -out decrypted_file.txt -pass file:aes_key.bin -pbkdf2 -iter 100000
+ 	’’’
+
+ &nbsp;
  	<details><summary>Code explanation</summary>
 	
  	
