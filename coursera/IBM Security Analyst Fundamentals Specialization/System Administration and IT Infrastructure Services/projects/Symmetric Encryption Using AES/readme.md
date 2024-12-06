@@ -43,7 +43,8 @@ Using -iter or -pbkdf2 would be better.
 I then encrypted the file with pbkdf2 and iter for increased security.
 
 	```bash
- 	openssl enc -aes-256-cbc -d -salt -in encrypted_file.bin -out decrypted_file.txt -pass file:aes_key.bin -pbkdf2 -iter 100000
+ 	openssl enc -aes-256-cbc -salt -in test_file.txt -out encrypted_file.bin -pass file:aes_key.bin -iter 10000
+
  	’’’
 
  &nbsp;
@@ -64,7 +65,7 @@ bashcat encrypted_file.bin
 <details><summary>Decrypting the file.</summary>
 To decrypt the file, I use the following command. Only difference is adding the new -out destination and the variable for decryption.
 
-`bashopenssl enc -aes-256-cbc -d -salt -in encrypted_file.bin -out decrypted_file.txt -pass file:aes_key.bin -pbkdf2 -iter 100000`
+`bashopenssl enc -d -aes-256-cbc -salt -in encrypted_file.bin -out decrypted_file.txt -pass file:aes_key.bin -iter 10000`
 	<details><summary>Code explanation</summary>
 	```bash-d``` indicates that you want to <b>d</b>ecrypt the file instead of encrypting it.
 </details>
