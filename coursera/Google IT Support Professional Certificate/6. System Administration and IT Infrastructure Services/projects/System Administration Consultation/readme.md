@@ -1,8 +1,9 @@
-<h1>System Administration Consultation</h1>
 ```console
 foo@bar:~$ whoami
 foo
 ```
+<h1>System Administration Consultation</h1>
+
 <p>&emsp;
 In this project I will be working on systems administration for three diffrent companies in three diffrent scenarios. For each scenario, I will present improvements to processes based on the company’s needs and current restrictions. Please click any dropdown for the scenario or my respective response.</p>
 <details><summary>Network Funtime Company, Software Company</summary>
