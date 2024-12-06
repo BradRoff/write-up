@@ -12,7 +12,7 @@ I begin by using the following command:
 <details><summary>Generating a Secret Key</summary>
 	I then get a random 256-bit (32-byte) key for the AES generation:
 	
-	``` openssl rand -base64 32 > aes_key.bin```
+	 openssl rand -base64 32 > aes_key.bin
 &nbsp;
 	<details><summary>Code explanation:</summary>
 	``` openssl rand``` uses openssl command line tool to generate random number
@@ -42,10 +42,10 @@ Using -iter or -pbkdf2 would be better.
 <details><summary>Inproving Encryption</summary>
 I then encrypted the file with pbkdf2 and iter for increased security.
 
-	```
+	
  	openssl enc -aes-256-cbc -salt -in test_file.txt -out encrypted_file.bin -pass file:aes_key.bin -iter 10000
 
- 	’’’
+ 	
 
  &nbsp;
  	<details><summary>Code explanation</summary>
