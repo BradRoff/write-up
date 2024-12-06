@@ -1,7 +1,4 @@
-```bash
-foo@bar:~$ whoami
-foo
-```
+
 <h1>System Administration Consultation</h1>
 
 <p>&emsp;
