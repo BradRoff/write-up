@@ -1,5 +1,5 @@
 
-<h1>Why did I chose to complete the <a hreff= "https://www.coursera.org/specializations/security-analyst-fundamentals#courses">IBM Security Analyst Fundamentals Specialization?</a></h1>
+<h1>Why did I chose to complete the <a hreff= "https://www.coursera.org/specializations/security-analyst-fundamentals">IBM Security Analyst Fundamentals Specialization?</a></h1>
 
 <p>One of my major goals is to get into a SOC analist role. To achive this I want to try compleeting a certification from a diffrent publication, and looking over IBM showed a cert with alot of interative assignments.
 </p>
