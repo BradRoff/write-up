@@ -1,1 +1,1 @@
-<img src =  "https://www.coursera.org/account/accomplishments/specialization/certificate/1GZRPKJYU66Draw=true"></a>
+<img src =  "https://github.com/BradRoff/write-up/blob/main/coursera/img/GITS..jpeg?raw=true"></a>
